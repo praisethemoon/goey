@@ -14,7 +14,7 @@ local login = {label = "login", text=""}
 local pwd = {label= "password", password = true, text=""}
 
 
-local address, port = "localhost", 12345
+local address, port = "192.168.1.63", 12345
 local udp = socket.udp()
 udp:settimeout(0)
 udp:setpeername(address, port)
